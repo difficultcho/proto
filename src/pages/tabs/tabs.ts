@@ -18,8 +18,8 @@ import {IonicPage, NavController} from 'ionic-angular';
 export class TabsPage {
 
   homeRoot = 'HomePage';
-  movieRoot = 'MoviePage';
-  cinemaRoot = 'CinemaPage';
+  //movieRoot = 'MoviePage';
+  //cinemaRoot = 'CinemaPage';
   dataRoot = 'DataPage';
   moreRoot = 'MorePage';
 

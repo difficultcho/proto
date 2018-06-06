@@ -38,26 +38,24 @@ import {DataProvider} from '../providers/data/data';
     })
   ],
   bootstrap: [IonicApp],
-  entryComponents:
-    [
-      MyApp
-    ],
-  providers:
-    [
-      SplashScreen,
-      StatusBar,
-      Camera,
-      FileTransfer,
-      {provide: ErrorHandler, useClass: IonicErrorHandler},
-      MoviesProvider,
-      GeolocationProvider,
-      InformationProvider,
-      ParametersProvider,
-      WilddogProvider,
-      ThemeProvider,
-      CinemasProvider,
-      DataProvider,
-    ]
+  entryComponents: [
+    MyApp
+  ],
+  providers: [
+    SplashScreen,
+    StatusBar,
+    Camera,
+    FileTransfer,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    MoviesProvider,
+    GeolocationProvider,
+    InformationProvider,
+    ParametersProvider,
+    WilddogProvider,
+    ThemeProvider,
+    CinemasProvider,
+    DataProvider,
+  ]
 })
 
 export class AppModule {
